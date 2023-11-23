@@ -6,7 +6,7 @@ source /certspotter/utils.sh
 MESSAGE="${1:-}"
 
 if [ -n "${DNS_DOMAINS}" ]; then
-  warn "New certificates found for ${DNS_DOMAINS}"
+  warning "New certificates found for ${DNS_DOMAINS}"
   export DNS_DOMAINS
   MESSAGE="New certificates found for ${DNS_DOMAINS}"
 fi
