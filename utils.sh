@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 
 function log() {
-  echo "$(date --iso-8601=second) $*"
+  echo "$(date -Isecond) $*"
 }
 
 function info() {
