@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 PATH=$PATH:/certspotter/bin
 CS_DELAY=${CS_DELAY:-86400}
