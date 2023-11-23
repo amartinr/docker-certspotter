@@ -9,7 +9,7 @@ RESULT=""
 #script /certspotter/bin/notify.sh"
 
 # shellcheck disable=SC1091
-source /certspotter/utils.bash
+source /certspotter/utils.sh
 
 if [ -n "${CS_DEBUG}" ]; then
   debug "Setting certspotter to verbose mode"

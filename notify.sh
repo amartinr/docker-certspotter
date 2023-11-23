@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 
 # shellcheck disable=SC1091
-source /certspotter/utils.bash
+source /certspotter/utils.sh
 
 MESSAGE="${1:-}"
 
